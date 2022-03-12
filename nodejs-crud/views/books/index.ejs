@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Books</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body class="container" style="margin-top: 50px;">
+<body id="book-list-container" class="container" style="margin-top: 50px;">
+
+    <header class="book-list-header">
+        <h1 class="book-list-h">Welcome To Summer Readathon! </h1>
+        <img class="book-list-header-img"
+            src="https://www.teahub.io/photos/full/16-168437_wallpaper-books-library-shelves-lighting-library-background-wallpaper.jpg">
+        <h1 class="book-list-h">Book List</h1>
+        <nav>
+            <a class="btn btn-primary" href="http://localhost:3000" role="button">Home</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2 class="book-list-h">Create Your Own Book List!</h2>
+        <p>You can create a to read list here. Once you finished a book, remove it, and start another one! </p>
+    </section>
 
     <% if (messages.success) { %>
         <div class="alert alert-success" role="alert">

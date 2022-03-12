@@ -7,4 +7,73 @@ a {
   color: #00B7FF;
 }
 
+/*============= Homepage style ===========*/
+#home-body-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.home-bg-img {
+  width: 70%;
+  filter: drop-shadow(10px 10px 30px #222222);
+}
+
+.home-h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.home-h {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.center-home-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*============= book list style ===========*/
+
+#book-list-container {
+  background-color: aliceblue;
+}
+
+.book-list-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.book-list-header-img {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  filter: drop-shadow(10px 10px 30px #222222);
+}
+
+.book-list-h {
+  font-family: 'Amatic SC', cursive;
+  margin: 20px;
+}
+
+.book-list-a {
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #00B7FF;
+}
+
+.book-list-a:hover {
+  text-decoration: none;
+  color: rgb(37, 37, 80);
+}
